@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1265152551.svg)](https://doi.org/10.5281/zenodo.20633342)
+
 # Walsh--Haar FCGR: theory-aligned genomic descriptor
 
 This repository contains the reproducible Python implementation accompanying the article:
