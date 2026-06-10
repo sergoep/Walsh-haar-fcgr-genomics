@@ -1,0 +1,6 @@
+{
+  "fcgr_normalization": true,
+  "fwht_energy_preservation": true,
+  "haar_energy_preservation": true,
+  "reverse_complement_equivariance": true
+}

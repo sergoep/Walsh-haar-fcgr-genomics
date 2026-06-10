@@ -1,0 +1,15 @@
+{
+  "scales": [3, 4],
+  "entropy_delta": 0.0001,
+  "min_valid_window_fraction": 0.8,
+  "smoothing_c": 0.2,
+  "smoothed_indices": [[0, 0], [1, 0], [0, 1], [1, 1]],
+  "polar_disks": [
+    {"center_x": 0.5, "center_y": 0.5, "radius": 0.25}
+  ],
+  "polar_max_radial_index": 2,
+  "polar_max_angular_index": 2,
+  "polar_radial_nodes": 32,
+  "polar_angular_nodes": 64,
+  "reverse_complement_average": true
+}

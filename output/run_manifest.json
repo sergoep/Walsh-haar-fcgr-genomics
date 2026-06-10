@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-06-10T10:31:26.523568+00:00",
+  "python": "3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]",
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "argv": [
+    "/mnt/data/walsh_haar_fcgr_python/src/walsh_haar_fcgr/cli.py",
+    "demo",
+    "--output-dir",
+    "output"
+  ],
+  "seed": 2026,
+  "packages": {
+    "numpy": "2.3.5",
+    "pytest": "9.0.2",
+    "walsh-haar-fcgr": "1.0.0"
+  },
+  "extra": {
+    "command": "demo"
+  }
+}

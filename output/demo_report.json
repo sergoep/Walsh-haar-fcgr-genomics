@@ -1,0 +1,15 @@
+{
+  "descriptor_length": 32,
+  "descriptor_distances": {
+    "substitution_3": 1.2733012143244289,
+    "insertion_3": 0.3608104849414427,
+    "deletion_3": 0.3356161402111462
+  },
+  "fcgr_sum": 1.0,
+  "fwht_energy": 0.189767727332784,
+  "haar_energy": 0.18976772733278394,
+  "fcgr_energy": 0.189767727332784,
+  "reverse_complement_equivariance": true,
+  "smoothing_l2_error_sq_theoretical": 0.04,
+  "smoothing_l2_error_sq_numerical": 0.03999999
+}
