@@ -163,7 +163,7 @@ scikit-learn
 matplotlib
 ```
 
-The manuscript compilation additionally requires a standard LaTeX distribution with packages such as:
+The manuscript itself is compiled separately. This repository stores the computational reproducibility package, generated tables, machine-readable reports, and figures supporting the manuscript.
 
 ```text
 amsmath
@@ -492,7 +492,7 @@ If you use this repository, please cite the archived Zenodo release:
 Sergo A. Episkoposian.
 Stable Walsh--Haar FCGR Descriptor for Alignment-Free Genomic Sequence Analysis.
 Zenodo.
-https://doi.org/10.5281/zenodo.20634584
+https://doi.org/10.5281/zenodo.20760647
 ```
 
 A BibTeX entry may be added after the final Zenodo metadata are confirmed.
