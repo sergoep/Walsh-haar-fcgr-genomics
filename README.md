@@ -86,6 +86,10 @@ Walsh-haar-fcgr-genomics/
 ├── submission_check.sh
 ├── CHECKLIST.md
 ├── LICENSE
+├── configs/
+├── examples/
+├── src/
+├── tests/
 ├── generated_tables/
 │   ├── manifest_accessions_table.tex
 │   ├── benchmark_results_table.tex
@@ -115,10 +119,6 @@ Walsh-haar-fcgr-genomics/
 └── figures/
     ├── stability_curves.pdf
     └── smoothing_tradeoff.pdf
-```
-
-Some output files are generated automatically after running the scripts. The `cache/genbank/` directory is used locally for downloaded GenBank records and is not required to be committed to GitHub.
-
 ---
 
 ## Installation
@@ -395,23 +395,6 @@ At minimum:
 figures/stability_curves.pdf
 figures/smoothing_tradeoff.pdf
 ```
-
----
-
-## Manuscript compilation
-
-The main manuscript source is:
-
-    manuscript/manuscript_v8.tex
-
-Before compiling the manuscript, run the benchmark/diagnostic script so that all required generated tables exist.
-
-Then compile with:
-
-    pdflatex manuscript/manuscript_v8.tex
-    pdflatex manuscript/manuscript_v8.tex
-
-If the manuscript is configured with strict generated-table checking, compilation will fail if required generated tables are missing. This is intentional and prevents accidental submission with placeholder tables.
 
 ---
 
