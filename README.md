@@ -22,7 +22,7 @@ https://github.com/sergoep/Walsh-haar-fcgr-genomics
 Archived release:
 
 ```text
-https://doi.org/10.5281/zenodo.20634584
+https://doi.org/10.5281/zenodo.20760647
 ```
 
 ---
