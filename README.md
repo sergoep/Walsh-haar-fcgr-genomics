@@ -165,20 +165,6 @@ matplotlib
 
 The manuscript itself is compiled separately. This repository stores the computational reproducibility package, generated tables, machine-readable reports, and figures supporting the manuscript.
 
-```text
-amsmath
-amssymb
-amsthm
-mathtools
-booktabs
-tabularx
-algorithm
-algpseudocode
-tikz
-pgfplots
-hyperref
-```
-
 ---
 
 ## Quick start
