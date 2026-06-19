@@ -38,7 +38,7 @@ https://github.com/sergoep/Walsh-haar-fcgr-genomics
 and are archived in Zenodo at:
 
 ```text
-https://doi.org/10.5281/zenodo.20634584
+https://doi.org/10.5281/zenodo.20760647
 ```
 
 ---
@@ -86,8 +86,6 @@ Walsh-haar-fcgr-genomics/
 ├── submission_check.sh
 ├── CHECKLIST.md
 ├── LICENSE
-├── manuscript/
-│   └── manuscript_v8.tex
 ├── generated_tables/
 │   ├── manifest_accessions_table.tex
 │   ├── benchmark_results_table.tex
@@ -404,18 +402,14 @@ figures/smoothing_tradeoff.pdf
 
 The main manuscript source is:
 
-```text
-manuscript/manuscript_v8.tex
-```
+    manuscript/manuscript_v8.tex
 
 Before compiling the manuscript, run the benchmark/diagnostic script so that all required generated tables exist.
 
 Then compile with:
 
-```bash
-pdflatex manuscript/manuscript_v8.tex
-pdflatex manuscript/manuscript_v8.tex
-```
+    pdflatex manuscript/manuscript_v8.tex
+    pdflatex manuscript/manuscript_v8.tex
 
 If the manuscript is configured with strict generated-table checking, compilation will fail if required generated tables are missing. This is intentional and prevents accidental submission with placeholder tables.
 
@@ -436,7 +430,7 @@ This script checks that:
 * required generated tables exist;
 * required output files exist;
 * required figures exist;
-* the manuscript source is present.
+* the reproducibility package files are present.
 
 ---
 
